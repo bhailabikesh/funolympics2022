@@ -98,7 +98,7 @@ $allUserCount=App\Models\User::where('is_admin','c')->count();
                     <th>Category Type</th>
                     <th>Thumbnail</th>
                     <th>Is Live</th>
-                    <th>Operation</th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>

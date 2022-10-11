@@ -362,14 +362,14 @@
                     <li class="nav-item">
                         <a href="{{ route('videos.index') }}" class="nav-link">
                         <i class="fas fa-video nav-icon"></i>
-                        <p>{{ __('staticword.Videos')  }}</p>
+                        <p>All {{ __('staticword.Videos')  }}</p>
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a href="{{ url('/admin/users') }}" class="nav-link">
                         <i class="nav-icon fas fa-user"></i>
-                        <p>{{ __('staticword.User')  }}</p>
+                        <p>All {{ __('staticword.User')  }}s</p>
                         </a>
                     </li>
                     
@@ -383,7 +383,7 @@
                       <li class="nav-item">
                         <a href="{{ url('/admin/profile') }}" class="nav-link">
                         <i class="nav-icon fas fa-users"></i>
-                        <p>{{ __('staticword.Profile')  }}</p>
+                        <p>Admin {{ __('staticword.Profile')  }}</p>
                         </a>
                     </li>
 
@@ -397,7 +397,7 @@
                                    <a class="nav-link"  href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                    <i class="fas fa-sign-out-alt"></i>{{ __('staticword.logout')  }}</a>
+                                    <i class="fas fa-sign-out-alt"></i> {{ __('staticword.logout')  }}</a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>

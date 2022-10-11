@@ -288,7 +288,7 @@ $Videos=App\Models\Video::all();
                                 Argentina</a></h5>
                         <ul>
                             <li><i class="fa fa-calendar"></i> July 10, 2022</li>
-                            <li><i class="fa fa-edit"></i> 13 Comment</li>
+                            <!-- <li><i class="fa fa-edit"></i> 13 Comment</li> -->
                         </ul>
                     </div>
                 </div>
@@ -301,7 +301,7 @@ $Videos=App\Models\Video::all();
                                 Brazil</a></h5>
                         <ul>
                             <li><i class="fa fa-calendar"></i> Sep 10, 2022</li>
-                            <li><i class="fa fa-edit"></i> 8 Comment</li>
+                            <!-- <li><i class="fa fa-edit"></i> 8 Comment</li> -->
                         </ul>
                     </div>
                 </div>
@@ -313,7 +313,7 @@ $Videos=App\Models\Video::all();
                         <h5><a href="#">Nepal and India to battle again in Tennis final</a></h5>
                         <ul>
                             <li><i class="fa fa-calendar"></i> Sep 19, 2022</li>
-                            <li><i class="fa fa-edit"></i> 2 Comment</li>
+                            <!-- <li><i class="fa fa-edit"></i> 2 Comment</li> -->
                         </ul>
                     </div>
                 </div>

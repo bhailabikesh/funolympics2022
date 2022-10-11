@@ -3,7 +3,7 @@
 <footer class="footer-section set-bg">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 
                 <div class="fs-logo">
                     <div class="logo">
@@ -18,11 +18,11 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 ">
+            <div class="col-lg-3 col-md-6 ">
                 <div class="fs-widget">
-                    <h4>Useful Links</h4>
+                    <h4>Navigation</h4>
                     <ul class="fw-links">
-                        <li><a href="{{ url('/user/dashboard') }}">Account</a></li>
+                        <li><a href="{{ url('/login')}}">Administrator</a></li>
                         @Auth
                             <li>
                                    <a  href="{{ route('logout') }}"
@@ -36,23 +36,28 @@
                         @else
                         <li><a href="{{ url('/user/login') }}">Login</a></li>
                         @EndAuth
-                        <li><a href="{{ url('/watch_live') }}">Watch Live</a></li>
-                        <li><a href="{{ url('/video') }}">Videos</a></li>
+                        <li><a href="{{ url('/watch_live') }}">Streaming Now</a></li>
+                        <li><a href="{{ url('/video') }}">Latest Videos</a></li>
+                        <li><a href="{{ url('/schedule') }}">Schedule</a></li>
                     </ul>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="fs-widget">
                     <div class="fs-logo">
                         <h4>Contact</h4>
                         <ul>
                             <li><i class="fa fa-envelope"></i> support@funolympics.com</li>
                             <li><i class="fa fa-phone"></i> +(12) 345 6789</li>
-                            <li><i class="fa fa-map-marker"></i>930 City of Bayjing, Bayjing, China</li>
+                            <li><i class="fa fa-map"></i>930 City of Bayjing, Bayjing, China</li>
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673266.8837944935!2d115.98268294407573!3d39.907001408685666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f05296e7142cb9%3A0xb9625620af0fa98a!2sBeijing%2C%20China!5e0!3m2!1sen!2snp!4v1665474346172!5m2!1sen!2snp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </div>

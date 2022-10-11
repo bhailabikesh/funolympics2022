@@ -3,7 +3,7 @@
     <div class="float-right d-none d-sm-block">
       
     </div>
-    <strong>Copyright &copy; 2022 <a href="{{ url('/admin') }}">Funolympics.com</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="{{ url('/admin') }}">Funolympics2022.com</a>.</strong> All rights reserved.
   </footer>
   <div id="flash-container"></div>
   <!-- Control Sidebar -->

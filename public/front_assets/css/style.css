@@ -579,9 +579,10 @@ ol {
 .video-item .vi-title {
   position: absolute;
   left: 0;
-  top: 15px;
+  bottom: 15px;
   width: 100%;
   padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .video-item .vi-title h5 {
@@ -651,7 +652,7 @@ ol {
 
 .fs-logo ul li i {
   font-size: 16px;
-  color: #dd1515;
+  color: #fff;
   margin-right: 10px;
   position: absolute;
   left: 0;
@@ -1990,6 +1991,7 @@ video#liveVideo::-webkit-media-controls-timeline {
   bottom: 16px;
   width: 100%;
   padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .news-item .ni-text h5 {
