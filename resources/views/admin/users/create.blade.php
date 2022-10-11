@@ -47,7 +47,7 @@
           <!-- jquery validation -->
           <div class="card card-dark">
             <div class="card-header">
-              <h3 class="card-title">Create new users</h3>
+              <h3 class="card-title">Create New User</h3>
             </div>
             <!-- /.card-header -->
             <!-- form start -->
@@ -118,7 +118,7 @@
               </div>
               <!-- /.card-body -->
               <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Save</button>
+                <button type="submit" class="btn btn-success">Add User</button>
               </div>
             </form>
           </div>

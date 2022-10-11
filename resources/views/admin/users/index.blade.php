@@ -27,9 +27,8 @@
       <div class="row mb-3">
         <div class="col-sm-12">
           <a href="{{ route('users.create') }}"><button type="button" class="btn btn-success" style="float:right">
-              Add users</button>
+              Add User</button>
           </a>
-
         </div>
       </div>
 
@@ -50,7 +49,10 @@
                   <tr>
                     <th>SN</th>
                     <th>Name</th>
-                    <th>Roles</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                    <th>Phone No</th>
+                    <!-- <th>Roles</th> -->
                     <th>Action</th>
                   </tr>
                 </thead>
@@ -65,13 +67,16 @@
                   <tr>
                     <td>{{ $i++ }}</td>
                     <td>{{ $user->name }}</td>
-                    <td>
+                    <td>{{ $user->email }}</td>
+                    <td>{{ $user->country }}</td>
+                    <td>{{ $user->phone_code }}</td>
+                    <!-- <td>
                       @if($user->is_admin=="c")
                       User
 
                       @else
                       Admin
-                      @endif </td>
+                      @endif </td> -->
 
 
                     <td>
