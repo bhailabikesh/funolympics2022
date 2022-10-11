@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+    <title>6892AA8B-60E9-40CC-9358-4C47CA6221B9@0.5x</title>
+    <g id="iOS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons/iOS/Play/24">
+            <circle id="BG" fill-opacity="0.4" fill="#000000" cx="12" cy="12" r="12"/>
+            <polygon id="Play-Button" fill="#FFFFFF" points="9.33333333 7.66666667 9.33333333 17 16.6666667 12.3333333"/>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2.5" cx="12" cy="12" r="10.75"/>
+        </g>
+    </g>
+</svg>
