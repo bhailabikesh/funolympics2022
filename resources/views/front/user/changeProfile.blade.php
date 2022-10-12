@@ -1,19 +1,6 @@
 @extends('front.layouts.master')
 @section('content')
  
-   <!-- Banner Begin -->
-   <section class="breadcrumb-section set-bg" data-setbg="{{ asset('front_assets/img/breadcrumb-bg.jpg') }}" style="background-image: url(&quot;front-assets/img/breadcrumb-bg.jpg&quot;);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="bs-text">
-                        <h2>Profile</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Banner End -->
 
     <!-- Profile Begin -->
     <section class="profile">

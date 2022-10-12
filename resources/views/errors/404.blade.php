@@ -3,7 +3,7 @@
 
 
     <!-- Banner Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="{{ asset('front_assets/img/breadcrumb-bg.jpg') }}" style="background-image: url(&quot;front-assets/img/breadcrumb-bg.jpg&quot;);">
+    <!-- <section class="breadcrumb-section set-bg" data-setbg="{{ asset('front_assets/img/breadcrumb-bg.jpg') }}" style="background-image: url(&quot;front-assets/img/breadcrumb-bg.jpg&quot;);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -13,13 +13,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Banner End -->
 
 
     <!-- breadcrumbs area end -->
     <!-- Begin Error 404 Area -->
-    <div class="error-404-area">
+    <div class="error-404-area py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

@@ -2,7 +2,7 @@
 @section('content')
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-md-8" style="margin-top:23px">
+        <div class="col-md-8" style="margin:23px">
             <div class="card">
                 <div class="card-header">{{ __('Reset Password') }}</div>
 

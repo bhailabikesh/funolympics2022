@@ -38,7 +38,7 @@
                         <form method="post" action="{{ route('changeUser.password') }}" enctype="multipart/form-data">
                             @csrf
                             <div class="input__item">
-                                <input type="password" placeholder="Old Password" name="current_password">
+                                <input type="password" placeholder="Current Password" name="current_password">
                             </div>
                             <div class="input__item">
                                 <input type="password" placeholder="New Password" name="new_password">

@@ -115,7 +115,7 @@
     "closeButton" : true,
     "progressBar" : true
   }
-        toastr.success("These credentials do not match our records");
+        toastr.error("Invalid Email address or password");
         @endforeach
         @endif
 </script>
